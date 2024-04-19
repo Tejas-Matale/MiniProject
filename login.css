@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(165, 11, 39);
+    display: flex;
+}
+
+.button{
+    display: flex; 
+}
+
+label{
+    padding-left: 10px;
+    font-weight: bold;
+}
+/* submit button*/
+button#submit{
+    width: 50%;
+    border: 2px solid;
+    color: orangered ;
+    padding: 0.5em 1.5em;
+    font-size: 1em;
+    transition:  0.4s;
+    display: block;
+    border-radius: 50em;
+    margin-top: 5px;
+}
+button#submit:hover{
+    color:#91051a;
+    transform: translateY(2px);
+    box-shadow: 0 0.5em 0.5em -0.4em #91051a;
+    cursor: pointer;
+/* reset button*/
+}button#reset{
+    display: block;
+    width: 50%;
+    border: 2px solid;
+    color: orangered ;
+    padding: 0.5em 1.5em;
+    font-size: 1em;
+    transition:  0.4s;
+    border-radius: 50em;
+    position: relative;
+    margin-top: 5px;
+}
+button#reset:hover{
+    color:#91051a;
+    transform: translateY(2px);
+    box-shadow: 0 0.5em 0.5em -0.4em #91051a;
+    cursor: pointer;
+}
+/* form*/
+form {
+    background: #fff;
+    width: 500px;
+    margin: 65px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    align-content: center;
+    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+    padding: 1em;
+  }
+  .content{
+    display: block;
+    width: 100%;
+    }
+
+  form input{
+    font-size: 16px;
+  display: block;
+  font-family: 'Rubik', sans-serif;
+  width: 100%;
+  padding: 10px 1px;
+  border: 0;
+  border: 1px solid #747474;
+  border-radius: 5em;
+  outline: none;
+  padding-left: 15px;
+  background-color: rgb(209, 197, 197);  
+  }
+/*
+used to change something in placeholder
+  ::placeholder{
+    }
+*/
+
+  

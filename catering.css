@@ -1,0 +1,131 @@
+body {
+  background-color: blueviolet;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  height: 200px;
+}
+
+.logo_image {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logo {
+  max-height: 100px;
+}
+
+.main_navbar {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  margin-top: 10px;
+}
+
+.main_navbar nav,a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.main_navbar ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.location {
+  font-weight: bold;
+  color: red;
+}
+
+.nav_link :hover {
+  color: rebeccapurple;
+  transition: 1s;
+}
+
+.online {
+  background-color: rgb(253, 253, 32);
+}
+
+.catering_info {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.catering_info p {
+  margin: 10px auto; 
+  max-width: 750px;
+}
+
+.catering_info button {
+  margin: 5px;
+  padding: 8px 20px;
+  background-color: rgb(141, 101, 40);
+  border: 0px;
+  align-self: center;
+  width: 250px; 
+}
+
+.catering_logo {
+  height: 280px;
+  background-color: red;
+}
+
+.catering_logo img {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+
+.bottom_info {
+  color: white;
+  align-self: last baseline;
+  text-align: center;
+  padding: 20px;
+  height: 10px;
+}
+
+.bottom_info nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom_info ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bottom_info a {
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+.bottom_info button {
+  margin: 0 10px;
+  padding: 10px 40px;
+  background-color: rgb(141, 101, 40);
+  border: 0px;
+}

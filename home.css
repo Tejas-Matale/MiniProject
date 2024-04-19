@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+.main_nav{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_nav ul{
+    padding: 5px 6px 5px 6px;
+    justify-content: center;
+    margin-top: 10px;
+    display: flex;
+}
+
+.main_nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.nav_logo img{
+    margin-top: 20px;
+    height: 100px;
+}
+.nav_logo{
+    text-align: center;
+}
+
+.images{
+    background-color: green;
+    height: 500px;
+    margin: 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: blue;
+    height: 300px;
+}
+
+.info .locationButton{
+    margin-top: 8px;
+    padding: 9px;
+    border: 0;
+    background-color: rgb(141, 101, 40);
+    color: white;
+    align-self: center;
+}
+
+.info p{
+    padding-top: 20px;
+    width: 400px;
+    margin: 0;
+}
+
+.info h3{
+    padding-top: 25px;
+    margin: 0;
+}
+
+.menu {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_img, .dis_img{
+    display: table-cell;
+  width: 50%;
+  height: 500px;
+}
+
+.menu_img{
+    background-color: red;
+}
+
+
+.merch1, .merch2,.merch3, .merch_info{
+    width: 50%;height: 450px;float: left;
+}
